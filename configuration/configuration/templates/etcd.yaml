@@ -54,7 +54,7 @@ stringData:
             {{- end }}
 
             {{- if $c.region }}
-            regionName: {{ $c.region }}
+            region: {{ $c.region }}
             {{- end }}
 
             {{- if $c.domainName }}
